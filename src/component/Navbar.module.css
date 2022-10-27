@@ -1,0 +1,194 @@
+.navbar {
+  background-color: #2e4cbc;
+  height: 51px;
+  text-align: left;
+}
+.h3 {
+  background-color: #cfd9fe;
+  height: 51px;
+  width: 82%;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  margin: auto;
+}
+.h32 {
+  background-color: #cfd9fe;
+  height: 51px;
+  width: 82%;
+  margin-bottom: -20px;
+  margin: auto;
+}
+.logo {
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 40px;
+}
+.logo2 {
+  margin-left: 85%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  height: 25px;
+}
+.heading {
+  background-color: #cfd9fe;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  /* border: 1px solid red; */
+  width: 90%;
+  padding-left: 35px;
+  padding-right: 125px;
+  padding-top: 15px;
+  margin-left: -30px;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+.tabletd {
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+
+  /* border: 1px solid red; */
+  width: 90%;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 15px;
+  margin-left: -30px;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+.actionTH {
+  margin-left: 20px;
+}
+.tableH3 {
+  background-color: #cfd9fe;
+  height: 51px;
+  width: 85%;
+  margin: auto;
+  margin-top: 20px;
+}
+.tablediv {
+  width: 85%;
+  margin: auto;
+}
+.table {
+  width: 70%;
+  /* margin-left: 88px; */
+  margin: auto;
+  margin-top: 50px;
+}
+.btnDiv {
+  margin-right: -40px;
+}
+.saveBtn {
+  height: 30px;
+  width: 100px;
+  color: #ffffff;
+  background-color: #2e4cbc;
+  border-radius: 7px;
+  margin-left: 68%;
+  margin-top: 5px;
+  border: none;
+}
+.canBtn {
+  height: 30px;
+  width: 100px;
+  color: #ffffff;
+  background-color: #2e4cbc;
+  border-radius: 7px;
+  margin-left: 5px;
+  margin-top: 5px;
+  border: none;
+}
+.tabletd:nth-child(even) {
+  background-color: #b8bac0;
+}
+/* \\\\\\\\ form \\\\\\\\ */
+.formH3 {
+  background-color: #5678f5;
+  color: white;
+  height: 40px;
+  width: 95%;
+  padding-top: 10px;
+  margin: auto;
+  margin-top: 10px;
+}
+.form {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 2px 2px;
+  width: 80%;
+  margin: auto;
+  height: 200px;
+}
+.form2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  height: 300px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 2px 2px;
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+.div {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 2px 2px;
+}
+.form select {
+  width: 235px;
+  height: 35px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.form input {
+  width: 230px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+.form2 select {
+  width: 235px;
+  height: 35px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.form2 input {
+  width: 230px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+.form label {
+  width: 150px;
+  margin-top: 30px;
+  text-align: left;
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+.addBtnForm {
+  height: 30px;
+  width: 100px;
+  color: #ffffff;
+  background-color: #2e4cbc;
+  border-radius: 7px;
+
+  margin-top: 50px;
+  border: none;
+}
