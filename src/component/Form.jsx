@@ -48,7 +48,11 @@ function Form() {
   const [input, setInput] = useState(isEdit ? edit : obj);
   const handleChange = (e) => {
     const { name, value, checked } = e.target;
-    setInput({ ...input, [name]: value, checkbox: checked });
+    setInput({
+      ...input,
+      [name]: value,
+      [name]: checked,
+    });
   };
   const handleCancel = () => {
     const payload = { isEdit: false };
@@ -100,7 +104,11 @@ function Form() {
           </label>
           <label>
             Printer Type
-            <select onChange={handleChange} name="prtype" value={input.prtype}>
+            <select
+              onChange={handleChange}
+              name="prtype"
+              defaultChecked={input.skip}
+            >
               <option value="Blaster">Blaster</option>
               <option value="Blaster2">Blaster2</option>
               <option value="Advantage">Advantage</option>
@@ -149,6 +157,7 @@ function Form() {
             <input
               type="checkbox"
               name="printbar"
+              defaultChecked={input.printbar}
               value={input.printbar}
               onChange={handleChange}
             />
@@ -158,6 +167,7 @@ function Form() {
             <input
               type="checkbox"
               name="printname"
+              defaultChecked={input.printname}
               value={input.printname}
               onChange={handleChange}
             />
@@ -167,6 +177,7 @@ function Form() {
             <input
               type="checkbox"
               name="printtest"
+              defaultChecked={input.printtest}
               value={input.printtest}
               onChange={handleChange}
             />
@@ -209,6 +220,7 @@ function Form() {
             <input
               type="checkbox"
               name="checksum"
+              defaultChecked={input.checksum}
               value={input.checksum}
               onChange={handleChange}
             />
@@ -218,6 +230,7 @@ function Form() {
             <input
               type="checkbox"
               name="skip"
+              defaultChecked={input.skip}
               value={input.skip}
               onChange={handleChange}
             />
