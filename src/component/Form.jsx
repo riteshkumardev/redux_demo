@@ -100,7 +100,7 @@ function Form() {
           </label>
           <label>
             Printer Type
-            <select name="prtype" value={input.prtype}>
+            <select onChange={handleChange} name="prtype" value={input.prtype}>
               <option value="Blaster">Blaster</option>
               <option value="Blaster2">Blaster2</option>
               <option value="Advantage">Advantage</option>
@@ -173,7 +173,7 @@ function Form() {
           </label>
           <label>
             Barcord Type
-            <select name="pins" value={input.pins}>
+            <select name="pins" onChange={handleChange} value={input.pins}>
               <option value="BAR128"> BAR128</option>
               <option value="BAR128C"> BAR128C</option>
               <option value="BAR25"> BAR25</option>
@@ -183,7 +183,11 @@ function Form() {
           </label>
           <label>
             Label Type
-            <select name="labelType" value={input.labelType}>
+            <select
+              name="labelType"
+              onChange={handleChange}
+              value={input.labelType}
+            >
               <option value="Blank"> Regular</option>
               <option value="Y"> 2 columns</option>
               <option value="M"> Small 2 column</option>
